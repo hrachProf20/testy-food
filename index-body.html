@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+</head>
+<body>
+   <div class="head">
+       <nav>
+           <input type="checkbox" id="check">
+           <label for="check" class="checkBtn">
+               <i class="fas fa-bars"></i>
+           </label>
+           <div class='logo'>
+               <img src="images/logoRestaurent.jpg" alt="" >
+           </div>
+           <ul>
+               <li class=""><a href="" class="active">Home</a></li>
+               <li><a href="#dishes">dashes</a></li>
+               <li><a href="#about">about</a></li>
+               <li><a href="#fruit">fruit</a></li>
+               <li><a href="register.html">register</a></li>
+               <li><a href="#about">About</a></li>
+           </ul>
+       </nav>
+   </div>
+
+   <div class="body">
+        <div class="dish">
+            <div class="info-dish">
+                <span>Our Special Dish</span>
+                <h1>Hot Pizza</h1>
+                <p>The term pizza was first recorded in the year 997, in a Latin manuscript from the Southern Italian town of Gaeta, in Lazio, on the border with Campania</p>
+            </div>
+
+            <div class="dish-img">
+                <img src="images/pizza.jpeg" alt="">
+            </div>
+        </div>
+
+
+       <div class="dish">
+           <div class="info-dish">
+               <span>Our Special Dish</span>
+               <h1>Fried Chicken</h1>
+               <p>The chicken (Gallus domesticus) is a domesticated species that arose from the red junglefowl, originally from Southeast Asia.</p>
+           </div>
+           
+           <div class="dish-img">
+               <img src="images/chicken.jpg" alt="">
+           </div>
+       </div>
+
+
+       <div class="dish">
+           <div class="info-dish">
+               <span>Our Special Dish</span>
+               <h1>Testy  Grilled</h1>
+               <p>Grilling is a form of cooking that involves heat applied to the surface of food, commonly from above, below or from the side.</p>
+           </div>
+
+           <div class="dish-img">
+               <img src="images/grilled.jpg" alt="">
+           </div>
+       </div>
+
+
+   </div>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropDown-menu')
+
+    toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+      toggleBtnIcon.classList = isOpen
+        ? 'fas fa-xmark'
+        : 'fas fa-bars'
+     }
+</script>
+
+</body>
+</html>
