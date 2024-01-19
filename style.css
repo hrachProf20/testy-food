@@ -161,3 +161,145 @@ body{
     color: white;
     font-size: 30px;
 }
+
+@media (max-width: 970px){
+    .registration-form input{
+        width: 99%;
+    }
+    .registration-item{
+        width: 75%;
+    }
+
+    .chat-message h1{
+        font-size: 37px;
+    }
+
+    .p-text p{
+        font-size: 18px;
+    }
+
+    .p-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .submit {
+        margin: 0 auto;
+        width: 55%;
+    }
+}
+
+@media (max-width: 700px){
+    .chat-message h1{
+        font-size: 30px;
+    }
+
+    .p-text p{
+        font-size: 15px;
+    }
+    .submit {
+        width: 68%;
+    }
+
+    .submit button{
+        width: 130px;
+        height: 36px;
+        font-size: 11px;
+    }
+    .logo img {
+        width: 140px;
+        height: 107px;
+        float: right;
+    }
+
+    .registration-form input{
+        width: 91%;
+    }
+
+    .registration-form textarea{
+        width: 92%;
+    }
+
+    .right h1{
+        font-size: 25px;
+    }
+    .submit {
+        margin: 0 auto;
+        width: 71%;
+    }
+
+    .registration-item{
+        height: 500px;
+    }
+
+    .chat-message {
+        margin-top: 134px;
+    }
+}
+
+@media (max-width: 570px){
+    .submit{
+        width: 76%;
+    }
+
+    .submit button {
+        width: 113px;
+        height: 30px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 450px){
+    .submit {
+        width: 85%;
+    }
+
+    .submit button {
+        width: 88px;
+        height: 26px;
+        font-size: 9px;
+    }
+
+    .chat-message h1 {
+        font-size: 22px;
+    }
+
+    .p-text p {
+        font-size: 10px;
+    }
+
+    .registration-form input{
+        padding: 5px;
+        margin-bottom: 6px;
+    }
+
+    .registration-form input::placeholder{
+        font-size: 10px;
+    }
+
+    .registration-item {
+        height: 336px;
+    }
+    .chat-message {
+        margin-top: 90px;
+    }
+
+    .right h1 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .registration-form p {
+        margin-bottom: 7px;
+        font-size: 10px;
+    }
+    .registration-form textarea {
+        width: 84%;
+    }
+
+    .item-registr{
+        padding-top: 170px;
+        height: 603px;
+    }
+}
+
